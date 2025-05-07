@@ -1,0 +1,179 @@
+[
+ {
+   "product_id": 101,
+   "product_title": "Wireless Bluetooth Headphones",
+   "product_image": "https://plus.unsplash.com/premium_photo-1664194584291-cfc411d05998?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2FkZ2V0fGVufDB8fDB8fHww",
+   "category": "Electronics",
+   "price": 59.99,
+   "description": "High-quality wireless headphones with noise cancellation and 20-hour battery life.",
+   "specification": [
+     "Bluetooth 5.0",
+     "Noise Cancellation",
+     "20-hour Battery Life",
+     "Over-ear Design"
+   ],
+   "availability": true,
+   "rating": 4.5,
+   "brand": "SoundMax",
+   "warranty": "1 year manufacturer warranty"
+ },
+ {
+   "product_id": 102,
+   "product_title": "Smart LED TV 42 inch",
+   "product_image": "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FkZ2V0fGVufDB8fDB8fHww",
+   "category": "Electronics",
+   "price": 329.99,
+   "description": "42 inch Full HD Smart TV with built-in apps and voice control.",
+   "specification": [
+     "Full HD",
+     "Smart TV",
+     "HDMI & USB Ports",
+     "Voice Assistant"
+   ],
+   "availability": true,
+   "rating": 4.2,
+   "brand": "VisionTech",
+   "warranty": "2 years"
+ },
+ {
+   "product_id": 103,
+   "product_title": "Running Shoes for Men",
+   "product_image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGdhZGdldHxlbnwwfHwwfHx8MA%3D%3D",
+   "category": "Fashion",
+   "price": 49.99,
+   "description": "Comfortable and stylish running shoes for daily use and workouts.",
+   "specification": [
+     "Breathable Mesh",
+     "Lightweight",
+     "Cushioned Sole"
+   ],
+   "availability": true,
+   "rating": 4.7,
+   "brand": "RunX",
+   "size_available": ["7", "8", "9", "10", "11"]
+ },
+ {
+   "product_id": 104,
+   "product_title": "Stainless Steel Water Bottle",
+   "product_image": "https://images.unsplash.com/photo-1615655406736-b37c4fabf923?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FkZ2V0fGVufDB8fDB8fHww",
+   "category": "Home & Kitchen",
+   "price": 15.99,
+   "description": "Leak-proof stainless steel water bottle for hot and cold beverages.",
+   "specification": [
+     "500ml Capacity",
+     "Double Wall Insulated",
+     "BPA Free"
+   ],
+   "availability": false,
+   "rating": 4.3,
+   "brand": "HydroLock",
+   "color": "Silver"
+ },
+ {
+   "product_id": 105,
+   "product_title": "Gaming Laptop - Ryzen 7",
+   "product_image": "https://images.unsplash.com/photo-1648737966636-2fc3a5fffc8a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D",
+   "category": "Computers",
+   "price": 999.99,
+   "description": "High-performance laptop for gaming and productivity with Ryzen 7 processor.",
+   "specification": [
+     "AMD Ryzen 7",
+     "16GB RAM",
+     "512GB SSD",
+     "NVIDIA GTX 1660Ti"
+   ],
+   "availability": true,
+   "rating": 4.8,
+   "brand": "GameMax",
+   "warranty": "1 year"
+ },
+ {
+   "product_id": 106,
+   "product_title": "Organic Green Tea - 100 Bags",
+   "product_image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRlY2hub2xvZ2llfGVufDB8fDB8fHww",
+   "category": "Groceries",
+   "price": 12.50,
+   "description": "Refreshing organic green tea packed with antioxidants.",
+   "specification": [
+     "100 Tea Bags",
+     "100% Organic",
+     "No Artificial Additives"
+   ],
+   "availability": true,
+   "rating": 4.1,
+   "brand": "NatureLeaf",
+   "flavor": "Classic"
+ },
+ {
+   "product_id": 107,
+   "product_title": "Bluetooth Portable Speaker",
+   "product_image": "https://media.istockphoto.com/id/2209171142/photo/solid-state-batteries-next-generation-ssb-pouch-cell-solid-state-electric-vehicle-battery.webp?a=1&b=1&s=612x612&w=0&k=20&c=BMt85uyNxiXkPdnhWD7uWF11g1qhUYdyw4kdU0fu6hY=",
+   "category": "Electronics",
+   "price": 25.99,
+   "description": "Compact speaker with deep bass and 10-hour playtime.",
+   "specification": [
+     "Bluetooth 5.0",
+     "Water Resistant",
+     "10-hour Battery",
+     "Hands-Free Calling"
+   ],
+   "availability": true,
+   "rating": 4.6,
+   "brand": "BoomBeat",
+   "color": "Black"
+ },
+ {
+   "product_id": 108,
+   "product_title": "Ergonomic Office Chair",
+   "product_image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdhZGdldHxlbnwwfHwwfHx8MA%3D%3D",
+   "category": "Furniture",
+   "price": 149.99,
+   "description": "Adjustable ergonomic chair with lumbar support and breathable mesh.",
+   "specification": [
+     "360° Swivel",
+     "Adjustable Height",
+     "Lumbar Support",
+     "Breathable Mesh Back"
+   ],
+   "availability": false,
+   "rating": 4.4,
+   "brand": "ComfortZone",
+   "color": "Gray"
+ },
+ {
+   "product_id": 109,
+   "product_title": "Digital Wrist Watch - Unisex",
+   "product_image": "https://images.unsplash.com/photo-1621319332247-ce870cdad56c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdhZGdldHxlbnwwfHwwfHx8MA%3D%3D",
+   "category": "Accessories",
+   "price": 29.99,
+   "description": "Stylish and water-resistant digital watch with multiple time zones.",
+   "specification": [
+     "LED Display",
+     "Stopwatch",
+     "Water Resistant",
+     "Alarm Function"
+   ],
+   "availability": true,
+   "rating": 4.0,
+   "brand": "TimeTrack",
+   "color": "Navy Blue"
+ },
+ {
+   "product_id": 110,
+   "product_title": "Children’s Story Book Set - 5 Books",
+   "product_image": "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8dGVjaHxlbnwwfHwwfHx8MA%3D%3D",
+   "category": "Books",
+   "price": 18.75,
+   "description": "A colorful and engaging storybook set for children aged 3–8.",
+   "specification": [
+     "Illustrated",
+     "Soft Cover",
+     "Age 3–8",
+     "Moral Lessons"
+   ],
+   "availability": true,
+   "rating": 4.9,
+   "author": "Emma Woods",
+   "language": "English"
+ }
+]

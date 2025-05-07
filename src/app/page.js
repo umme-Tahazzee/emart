@@ -1,9 +1,14 @@
+"use client"
+import Main from './Main/page'
+import HeroImg from '../app/HeroImg/page'
 
-
-export default function Home() {
+const page = () => {
   return (
-  <div>
-        Main Page
-  </div>
-  );
+    <div>
+       <HeroImg/>
+      <Main/>
+    </div>
+  )
 }
+
+export default page
