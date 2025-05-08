@@ -8,8 +8,8 @@ const Footer = () => {
           <p className="text-slate-400 "><small>Leading the way in cutting-edge technology and innovation.</small></p>
       </div>
       {/* <div className="w-full ml-10 mr-10 border-1 bg-base-200 "></div> */}
-      <div className="flex w-1/2 mx-auto justify-between ">
-        <footer className="gap-50 footer sm:footer-horizontal text-base-content p-10">
+      <div className="flex  bg-white justify-between m-5 ">
+        <footer className="gap-50 w-1/2 mx-auto footer sm:footer-horizontal text-base-content p-10">
           <nav>
             <h6 className="footer-title">Services</h6>
             <a className="link link-hover">Branding</a>

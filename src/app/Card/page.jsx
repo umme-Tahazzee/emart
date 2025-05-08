@@ -3,8 +3,9 @@
 import Link from 'next/link';
 import Card from '../Card/[product_id]/page'
 
-
 const page = ({ card }) => {
+ 
+
   const {
     product_id,
     product_title,
