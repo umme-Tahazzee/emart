@@ -15,11 +15,18 @@ export default function ProductDetails() {
 
   const handleAddToCart = () => {
     if (product.availability) {
+      // Save to localStorage
+      let cart = JSON.parse(localStorage.getItem("cart")) || [];
+      cart.push(product);
+      localStorage.setItem("cart", JSON.stringify(cart));
+
       toast.success("Successfully added to cart!", {
         position: "top-right",
-        autoClose: 3000,   
+        autoClose: 3000,
       });
-    
+
+      // Navigate to dashboard
+      window.location.href = "/DashBoard";
     } else {
       toast.error("Failed to add. Product is out of stock!", {
         position: "top-right",
@@ -27,13 +34,14 @@ export default function ProductDetails() {
       });
     }
   };
+
   const handleAddToWishList = () => {
     if (product.availability) {
       toast.success("Successfully added to WishList!", {
         position: "top-right",
-        autoClose: 3000,   
+        autoClose: 3000,
       });
-    
+
     } else {
       toast.error("Failed to add WishList. Product is out of stock!", {
         position: "top-right",
@@ -129,23 +137,20 @@ export default function ProductDetails() {
 
               {/* Add to Cart */}
               <div className="flex gap-3 justify-items ">
-                <Link href="/DashBoard">
                 <button
-                  onClick={()=>handleAddToCart()}
+                  onClick={handleAddToCart}
                   className={`btn px-6 mt-4 rounded-full text-white 
-       ${
-           product.availability
-          ? "bg-purple-600 hover:bg-purple-700"
-          : "bg-gray-400 cursor-not-allowed"
-        }`}
+                   ${product.availability
+                      ? "bg-purple-600 hover:bg-purple-700"
+                      : "bg-gray-400 cursor-not-allowed"
+                    }`}
                   disabled={!product.availability}
                 >
                   {product.availability ? "Add To Cart" : "Out of Stock"}
                 </button>
-                </Link>
                 <button
-                 onClick={()=>handleAddToWishList()}
-                 className="btn mt-4 bg-white text-[#9538E2] rounded-full hover:bg-purple-200">
+                  onClick={() => handleAddToWishList()}
+                  className="btn mt-4 bg-white text-[#9538E2] rounded-full hover:bg-purple-200">
                   <TbCloverFilled />
                 </button>
               </div>
