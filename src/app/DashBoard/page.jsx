@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { TbCloverFilled } from "react-icons/tb";
 import { FaShoppingCart } from "react-icons/fa";
 
@@ -20,14 +19,14 @@ export default function DashBoard() {
   <div className="relative">
 
     {/* Text Section - Pull this upward */}
-    <div className="relative z-10 -mt-40 px-10 text-center text-white">
-      <h2 className="text-2xl font-bold  ">DashBoard</h2>
+    <div className="relative z-10 -mt-40 px-10 text-center text-white space-y-2 ">
+      <h2 className="text-2xl font-bold">DashBoard</h2>
       <p>
         Explore the latest gadgets that will take your experience to the next level.
         <br />
         From smart devices to the coolest accessories, we have it all!
       </p>
-      <div className="flex gap-4 justify-center mt-2">
+      <div className="flex gap-4 justify-center">
                     <button className="btn bg-white text-[#9538E2] rounded-full hover:bg-purple-200">
                       <FaShoppingCart />
                     </button>
