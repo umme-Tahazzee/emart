@@ -6,7 +6,7 @@ import Image from "next/image";
 import { BsCartFill } from "react-icons/bs";
 import { TbCloverFilled } from "react-icons/tb";
 import { toast } from "react-toastify";
-import Link from "next/link";
+
 
 export default function ProductDetails() {
   const params = useParams();
